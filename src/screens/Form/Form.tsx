@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const Form = () => {
   return (
-    <View>
-      <Text>Form</Text>
+    <View style={styles.container}>
+      <Text>TBD</Text>
     </View>
   )
 }
