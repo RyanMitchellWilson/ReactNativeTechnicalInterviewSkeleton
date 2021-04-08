@@ -1,0 +1,6 @@
+module Pods_ReactNativeTechnicalInterviewSkeleton {
+  umbrella header "Pods-ReactNativeTechnicalInterviewSkeleton-umbrella.h"
+
+  export *
+  module * { export * }
+}
