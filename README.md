@@ -8,6 +8,8 @@ Before joining the call, please ensure that the local app is set up properly and
 Make sure you're using XCode (12).
 - `yarn` 
 - `yarn ios`
+- *If the initial run of `yarn ios` fails with the following: `error Failed to launch the app on simulator, An error was encountered processing the command (domain=com.apple.CoreSimulator.SimError, code=405): Unable to lookup in current state: Shutdown`, run `yarn ios` again and the app should then launch.
+
 
 # Android / Windows
 Using Android Studio 4.0.1, others will probably work too
