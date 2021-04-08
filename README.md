@@ -10,7 +10,14 @@ Make sure you're using XCode (12).
 - `yarn ios`
 
 # Android / Windows
-- WIP
+Using Android Studio 4.0.1, others will probably work too
+
+If you've never used Android Studio follow the instructions here to set up for React-Native development https://reactnative.dev/docs/environment-setup
+
+Create an Emulator with the AVD Manager
+- `yarn`
+- `yarn start` in one terminal
+- `yarn android` in a second terminal
 
 
 ## Challenge
