@@ -7,9 +7,9 @@ Before joining the call, please ensure that the local app is set up properly and
 # IOS / Mac
 Make sure you're using XCode (12).
 - `yarn` 
-- `yarn ios`
-- *If the initial run of `yarn ios` fails with the following: `error Failed to launch the app on simulator, An error was encountered processing the command (domain=com.apple.CoreSimulator.SimError, code=405): Unable to lookup in current state: Shutdown`, run `yarn ios` again and the app should then launch.
-
+- `cd ios && pod install --repo-update`
+- `yarn start` in current terminal
+- open a new terminal (or tab) and run `yarn ios` (if the initial run happens to fail, try it a second time)
 
 # Android / Windows
 Using Android Studio 4.0.1, others will probably work too
@@ -18,8 +18,8 @@ If you've never used Android Studio follow the instructions here to set up for R
 
 Create an Emulator with the AVD Manager
 - `yarn`
-- `yarn start` in one terminal
-- `yarn android` in a second terminal
+- `yarn start` in current terminal
+- open a new terminal (or tab) and run `yarn android`
 
 
 ## Challenge
