@@ -26,7 +26,12 @@ Create an Emulator with the AVD Manager
 We will give you the challenge at the time of the interview. Feel free to explore the code and get familiar.
 
 ## Handy Documents
-https://moment.github.io/luxon/api-docs/index.html
+### Luxon
 - https://moment.github.io/luxon/api-docs/index.html#datetimefromiso
 - https://moment.github.io/luxon/api-docs/index.html#datetimetolocalestring
 - https://moment.github.io/luxon/api-docs/index.html#datetimetomillis
+
+### Redux Toolkit
+- https://redux-toolkit.js.org/api/createReducer
+- https://redux-toolkit.js.org/api/createAction
+- https://redux-toolkit.js.org/api/createSelector
