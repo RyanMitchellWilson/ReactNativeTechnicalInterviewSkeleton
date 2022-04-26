@@ -1,16 +1,15 @@
-import React from 'react'
 import {
   BottomTabBarOptions,
   BottomTabNavigationOptions,
   createBottomTabNavigator
 } from '@react-navigation/bottom-tabs'
+import { RouteProp } from '@react-navigation/native'
+import React from 'react'
 import { enableScreens } from 'react-native-screens'
 import Ionicons from 'react-native-vector-icons/Ionicons'
-import { RouteProp } from '@react-navigation/native'
-
-import Form from '../screens/Form/Form'
 import Home from '../screens/Home/Home'
 import Rides from '../screens/Rides/Rides'
+
 
 enableScreens()
 const Tab = createBottomTabNavigator()
@@ -28,8 +27,6 @@ const ScreenTabOptions: (props: {
           return <Ionicons color={color} name='home' size={20}/>
         case 'Rides':
           return <Ionicons color={color} name='car' size={20}/>
-        case 'Form':
-          return <Ionicons color={color} name='information-circle' size={20}/>
       }
     }
   }
@@ -49,7 +46,6 @@ const AppRoutes = () => {
     >
       <Tab.Screen component={Home} name='Home' />
       <Tab.Screen component={Rides} name='Rides' />
-      <Tab.Screen component={Form} name='Form' />
     </Tab.Navigator>
   )
 }

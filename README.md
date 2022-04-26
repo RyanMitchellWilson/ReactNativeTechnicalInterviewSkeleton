@@ -1,4 +1,4 @@
-### React Native Coding Challenge 
+# Modivcare React Native Coding Challenge 
 
 ## Setup
 
@@ -23,7 +23,7 @@ Create an Emulator with the AVD Manager
 
 
 ## Challenge
-We will give you the challenge at the time of the interview. To prepare, please familiarize yourself with ReduxJS Toolkit, TypeScript, and React Hooks.
+We will give you the challenge at the time of the interview. Feel free to explore the code and get familiar.
 
 ## Handy Documents
 https://moment.github.io/luxon/api-docs/index.html
